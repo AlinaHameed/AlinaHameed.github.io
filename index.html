@@ -1,36 +1,110 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Alina Hameed's portfolio</title>
-    <link rel="stylesheet" href="style.css">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alina Hameed's Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <nav class="navbar">
-      <div class="navbar__container">
-       <a href="#home" id="navbar__logo">
-         Alina B. Hameed
-       </a>
-       <div class="navbar__toggle" id="mobilemenu">
-        <span class="bar"></span> 
-        <span class="bar"></span> 
-        <span class="bar"></span> 
-       </div>
-       <ul class="navbar__menu">
-         <li class="navbar__item">
-           <a href="#home" class="navbar__links" id="home-page">Home</a>
-         </li>
-         <li class="navbar__item">
+
+  <!-- Navbar Section -->
+  <nav class="navbar">
+    <div class="navbar__container">
+      <a href="#home" id="navbar__logo">Alina B. Hameed</a>
+      <div class="navbar__toggle" id="mobile-menu">
+        <span class="bar"></span> <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="navbar__menu">
+        <li class="navbar__item">
+          <a href="#home" class="navbar__links" id="home-page">Home</a>
+        </li>
+        <li class="navbar__item">
           <a href="#about" class="navbar__links" id="about-page">About</a>
         </li>
         <li class="navbar__item">
-          <a href="#works" class="navbar__links" id="works-page">Work</a>
+          <a href="#works" class="navbar__links" id="works-page">Works</a>
         </li>
-        <li class="navbar__item">
-          <a href="#contact" class="navbar__links" id="contact-page">Contact</a>
+        <li class="navbar__btn">
+          <a href="#contact" class="button" id="Contact">Contact</a>
         </li>
-       </ul> 
-      </div>
-    </nav>
-
+      </ul>
     </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero" id="home">
+    <div class="hero__container">
+      <div class="hero__content">
+        <h1>Hello, I'm Alina Hameed</h1>
+        <p>someone who enjoys programming, prototyping and designing content from my little office to yours</p>
+      </div>
+      <div class="hero__img--container">
+        <img id="hero__img" src="images/mini_room.png" />
+      </div>
+    </div>
+  </div>
+
+  <!-- About Section -->
+  <div class="main" id="about">
+    <div class="main__container">
+      <div class="main__img--container">
+        <img class="main__img--card" src="images/white tulips.jpeg" alt="">
+        <img class="main__img--card" src="images/神社の写真.jpeg" alt="">
+      </div>
+      <div class="main__content">
+        <h1>Who is Alina Hameed?</h1>
+        <h2>where did my interest in computer science sprout from?</h2>
+        <p> I am a first-generation Canadian currently attending the University of British Columbia studying computer science
+          and English literature. My concentration for study goes to show that as much as I enjoy the arts and aesthetics I am also fasinated with
+          the innerworkings of things in my day to day life. Since technology plays an enourmous role in my life it only makes sense for me to have an interest
+          in not only creating sophisticated and intricate code but also, making my code to be beautiful and enjoyable experience to interact with. 
+        </p>
+        <button class="main__btn"><a href="#">Some of my projects!</a></button>
+        <h2>what am I doing when I am not coding?</h2>
+        <p>I like to live my life striving towards being a 'Jack of all trades' and allow my hobbies to span me across many fields 
+          such as learning languages in which I am profficient in: English, Hindi, French and Japanese to gardening and floral arrangement
+          to annotating and writing papers analyzing my favourite books. I also trained karate under the <a href="https://en.wikipedia.org/wiki/Kyokushin" target="_blank">Kyokushin</a>
+          discipline and currently practice <a href="https://en.wikipedia.org/wiki/Kyokushin" target="_blank">Kendo</a> both which have allowed me to stay active physically and 
+          keep my mind sharp and study their respective philosophies. 
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Works Section -->
+  <div class="works" id="works">
+    <h1> Works </h1>
+    <div class="works__container">
+      <div class="works__card">
+        <h2>Java Swing Project</h2>
+        <p>The first coding project I made with Java for UBC CPSC 210. This project utlizes event logging of events,
+          Json for data persistance as well as how to make a GUI.</p>
+        <button>View the Repository</button>
+      </div>
+      <div class="works__card">
+        <h2>Swiss Water Internship</h2>
+        <p>Working under Swiss water I was an asset in working on internal interfaces for the marketing team and helping
+          work on auditing automation that required understanding of multiple data structures and algorithms</p>
+        <button>Contact to Learn More</button>
+      </div>
+      <div class="works__card">
+        <h2>This Website!</h2>
+        <p> This website has been a personal project that was made from scratch as a way to teach myself multiple markup
+          languages as well as react with the help of figma to prototype the design and learn how to 3D model</p>
+        <button>View the Repository</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
 </body>
+
 </html>
