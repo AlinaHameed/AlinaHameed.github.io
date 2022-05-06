@@ -84,7 +84,7 @@
     outline: none;
     border-radius: 4px;
     background-color: #20bf55;
-    background-image: linear-gradient(315deg, #20bf55 0%, #7D9E7A  74%);
+    background-image: linear-gradient(315deg, #20bf55 0%, #7D9E7A 74%);
 
     color: #fff;
     transition: all 0.3s ease;
@@ -192,9 +192,9 @@
 /* Heo Content CSS */
 .hero {
     background-color: #F6EFD0;
-  }
-  
-  .hero__container {
+}
+
+.hero__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -207,14 +207,14 @@
     max-width: 1300px;
     padding-right: 50px;
     padding-left: 50px;
-  }
-  
-  .hero__content {
+}
+
+.hero__content {
     color: #fff;
     width: 100%;
-  }
-  
-  .hero__content h1 {
+}
+
+.hero__content h1 {
     font-size: 4rem;
     font-style: italic;
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
@@ -223,9 +223,9 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-  }
-  
-  .hero__content h2 {
+}
+
+.hero__content h2 {
     font-size: 4rem;
     margin-top: 10px;
     background-size: 100%;
@@ -233,85 +233,85 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-  }
-  
-  .hero__content p {
+}
+
+.hero__content p {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-  }
-  
-  
-  .hero__img--container {
+}
+
+
+.hero__img--container {
     text-align: center;
-  }
-  
-  #hero__img {
+}
+
+#hero__img {
     height: 100%;
     width: 100%;
-  }
-  
-  /* Mobile Responsive */
-  @media screen and (max-width: 768px) {
+}
+
+/* Mobile Responsive */
+@media screen and (max-width: 768px) {
     .hero__container {
-      display: grid;
-      grid-template-columns: auto;
-      align-items: center;
-      justify-self: center;
-      width: 100%;
-      margin: 0 auto;
-      height: 90vh;
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        justify-self: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90vh;
     }
-  
+
     .hero__content {
-      text-align: center;
-      margin-bottom: 4rem;
+        text-align: center;
+        margin-bottom: 4rem;
     }
-  
+
     .hero__content h1 {
-      font-size: 2.5rem;
-      margin-top: 2rem;
+        font-size: 2.5rem;
+        margin-top: 2rem;
     }
-  
+
     .hero__content h2 {
-      font-size: 3rem;
+        font-size: 3rem;
     }
-  
+
     .hero__content p {
-      margin-top: 1rem;
-      font-size: 1.5rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
     }
-  }
-  
-  @media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 480px) {
     .hero__content h1 {
-      font-size: 2rem;
-      margin-top: 3rem;
+        font-size: 2rem;
+        margin-top: 3rem;
     }
-  
+
     .hero__content h2 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .hero__content p {
-      margin-top: 2rem;
-      font-size: 1.5rem;
+        margin-top: 2rem;
+        font-size: 1.5rem;
     }
-  
+
     .hero__btn {
-      padding: 12px 36px;
-      margin: 2.5rem 0;
+        padding: 12px 36px;
+        margin: 2.5rem 0;
     }
-  }
-  
+}
+
 
 /* Main about Content CSS */
 .main {
     background-color: #F6EFD0;
     padding: 10rem 0;
-  }
-  
-  .main__container {
+}
+
+.main__container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -322,14 +322,14 @@
     width: 100%;
     max-width: 1300px;
     padding: 0 50px;
-  }
-  
-  .main__content {
+}
+
+.main__content {
     color: #fff;
     width: 100%;
-  }
-  
-  .main__content h1 {
+}
+
+.main__content h1 {
     font-size: 2rem;
     background-color: #7D9E7A;
     background-size: 100%;
@@ -339,9 +339,9 @@
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
     margin-bottom: 32px;
-  }
-  
-  .main__content h2 {
+}
+
+.main__content h2 {
     font-size: 4rem;
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     background-size: 100%;
@@ -349,15 +349,15 @@
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
-  }
-  
-  .main__content p {
+}
+
+.main__content p {
     margin-top: 1rem;
     font-size: 2rem;
     font-weight: 700;
-  }
-  
-  .main__btn {
+}
+
+.main__btn {
     font-size: 1.8rem;
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     padding: 20px 60px;
@@ -368,16 +368,16 @@
     position: relative;
     transition: all 0.35s;
     outline: none;
-  }
-  
-  .main__btn a {
+}
+
+.main__btn a {
     position: relative;
     z-index: 2;
     color: #fff;
     text-decoration: none;
-  }
-  
-  .main__btn:after {
+}
+
+.main__btn:after {
     position: absolute;
     content: '';
     top: 0;
@@ -387,21 +387,21 @@
     background: #608CA8;
     transition: all 0.35s;
     border-radius: 4px;
-  }
-  
-  .main__btn:hover {
+}
+
+.main__btn:hover {
     color: #fff;
-  }
-  
-  .main__btn:hover:after {
+}
+
+.main__btn:hover:after {
     width: 100%;
-  }
-  
-  .main__img--container {
+}
+
+.main__img--container {
     text-align: center;
-  }
-  
-  .main__img--card {
+}
+
+.main__img--card {
     margin: 10px;
     height: 500px;
     width: 500px;
@@ -411,75 +411,76 @@
     justify-content: center;
     color: #fff;
     object-fit: cover;
-  }
-  
+}
 
-  
-  /* Mobile Responsive */
-  @media screen and (max-width: 1100px) {
+
+
+/* Mobile Responsive */
+@media screen and (max-width: 1100px) {
     .main__container {
-      display: grid;
-      grid-template-columns: 1fr;
-      align-items: center;
-      justify-content: center;
-      width: 100%;
-      margin: 0 auto;
-      height: 90%;
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
+        height: 90%;
     }
-  
+
     .main__img--container {
-      display: flex;
-      justify-content: center;
+        display: flex;
+        justify-content: center;
     }
-  
+
     .main__img--card {
-      height: 425px;
-      width: 425px;
+        height: 425px;
+        width: 425px;
     }
-  
+
     .main__content {
-      text-align: center;
-      margin-bottom: 4rem;
+        text-align: center;
+        margin-bottom: 4rem;
     }
-  
+
     .main__content h1 {
-      font-size: 2.5rem;
-      margin-top: 2rem;
+        font-size: 2.5rem;
+        margin-top: 2rem;
     }
-  
+
     .main__content h2 {
-      font-size: 3rem;
+        font-size: 3rem;
     }
-  
+
     .main__content p {
-      margin-top: 1rem;
-      font-size: 1.5rem;
+        margin-top: 1rem;
+        font-size: 1.5rem;
     }
-  }
-  
-  @media screen and (max-width: 480px) {
+}
+
+@media screen and (max-width: 480px) {
     .main__img--card {
-      width: 250px;
-      height: 250px;
+        width: 250px;
+        height: 250px;
     }
-  
+
     .main__content h1 {
-      font-size: 2rem;
-      margin-top: 3rem;
+        font-size: 2rem;
+        margin-top: 3rem;
     }
+
     .main__content h2 {
-      font-size: 2rem;
+        font-size: 2rem;
     }
-  
+
     .main__content p {
-      margin-top: 2rem;
+        margin-top: 2rem;
     }
-  
+
     .main__btn {
-      padding: 12px 36px;
-      margin: 2.5rem 0;
+        padding: 12px 36px;
+        margin: 2.5rem 0;
     }
-  }
+}
 
 
 /* Works Section */
@@ -517,8 +518,10 @@
     background-image: linear-gradient(to bottom,
             rgba(0, 0, 0, 0) 0%,
             rgba(17, 17, 17, 0.6) 100%),
-        url(images/java_swing.png);
-    background-size: cover;
+        url(images/GreenhouseImage.png);
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
     position: relative;
     color: #fff;
 }
@@ -532,6 +535,8 @@
             rgba(0, 0, 0, 0) 0%,
             rgba(17, 17, 17, 0.9) 100%),
         url(images/swiss_water_website.png);
+        background-size: 40cm;
+        background-position: left top;
 }
 
 .works__card:nth-child(3) {
@@ -539,6 +544,7 @@
             rgba(0, 0, 0, 0) 0%,
             rgba(17, 17, 17, 0.9) 100%),
         url(images/mini_room.png);
+        background-size: 15cm;
 }
 
 .works__card h2 {
