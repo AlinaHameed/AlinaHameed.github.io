@@ -32,8 +32,8 @@
 #navbar__logo {
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    /*-webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     display: flex;
@@ -219,8 +219,8 @@
     font-style: italic;
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
@@ -229,8 +229,8 @@
     font-size: 4rem;
     margin-top: 10px;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
@@ -333,8 +333,8 @@
     font-size: 2rem;
     background-color: #7D9E7A;
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     text-transform: uppercase;
@@ -345,8 +345,8 @@
     font-size: 4rem;
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
 }
@@ -496,8 +496,8 @@
 .works h1 {
     background-image: linear-gradient(to right, #3E4A3D 0%, #7D9E7A 100%);
     background-size: 100%;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    /*-webkit-background-clip: text;
+    -moz-background-clip: text;*/
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
     margin-bottom: 5rem;
@@ -638,5 +638,5 @@
     .works__card {
         width: 300px;
     }
-    
+
 }
